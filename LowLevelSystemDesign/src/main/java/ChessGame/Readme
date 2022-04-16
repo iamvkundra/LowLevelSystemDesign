@@ -1,0 +1,20 @@
+We have to design a simple chess game.
+
+Entities:
+If you have already played it then you mght already know this. but to ensure that we all are on the same page. I am defining some here.
+
+Board: Board is the one entity represents an actual board on which whihc you play this game.
+Cell: A board cosists of a grid of cell.
+Player : Someone who is actually playing right.
+Piece: Threr are various types of pieces as explained below.
+
+Pieces and their Moves:
+
+King: Key entity in chess. if your king is killed you loose. it also called checkmate.
+Queen: it can move any number of steps in a single move ans in any direction
+Rook: it only moves in horizontal and veritcal direction but can move any number of steps in single row
+Bishop: it only moves in diagonal direction but can move any number of steps in single move.
+Knight: it makes L shaped moves.
+Pawn: it can move 1 step veritcally.if it is its first turn, then it can also choose to make 2 steps in single.
+
+
